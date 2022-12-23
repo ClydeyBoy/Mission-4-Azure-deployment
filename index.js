@@ -7,9 +7,9 @@ const { response } = require('express');
 server.use(express.json())
 env.config()
 
-const PORT = process.env.PORT || 4002
+const PORT = 4000
 server.listen(PORT, () => {
-    console.log("listening to port 4000");
+    console.log("listening to port 5000");
 });
 
 
